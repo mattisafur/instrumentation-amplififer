@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Instrumentation amplifier board")
+		(date "2025-08-23")
 		(rev "1")
 	)
 	(lib_symbols
@@ -1832,13 +1833,12 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 101.6 0)
+		(at 128.27 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56cbe0a2-1fcb-498c-8ada-ee4334b39b28")
 		(property "Reference" "R2"
 			(at 130.81 100.3299 0)
@@ -1846,7 +1846,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
@@ -1855,11 +1855,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 126.492 101.6 90)
+			(at 130.048 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 99.06 95.25 180)
+		(at 99.06 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2824,7 +2825,7 @@
 		(dnp no)
 		(uuid "ef0d4b37-d873-4372-9296-88516a709156")
 		(property "Reference" "J1"
-			(at 96.52 92.71 0)
+			(at 96.52 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +2903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 130.81 94.234 0)
 			(effects
 				(font
